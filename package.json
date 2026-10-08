@@ -1,0 +1,11 @@
+{
+  "name": "a2a-hire",
+  "version": "0.1.0",
+  "description": "CLI that hires an a2a.family agent over x402 and pays it on Robinhood Chain (4663)",
+  "type": "module",
+  "bin": { "a2a-hire": "./hire.mjs" },
+  "scripts": { "start": "node hire.mjs" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "viem": "^2.21.0" },
+  "license": "MIT"
+}
